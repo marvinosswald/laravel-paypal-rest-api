@@ -1,0 +1,22 @@
+{
+    "name": "marvinosswald/laravel-paypal-rest-api",
+    "description": "A Slim wrapper for PayPal's REST API SDK for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marvin Osswald",
+            "email": "mail@marvinosswald.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "paypal/rest-api-sdk-php": "^1.11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marvinosswald\\LaravelPayPal\\": "src/"
+        }
+    }
+}
+
