@@ -43,6 +43,9 @@ class Paypal implements PayPalContract {
                 $this->client_secret
             )
         );
+        $this->apiContext->setConfig([
+            'mode' => $this->mode
+        ]);
     }
 
     /**
